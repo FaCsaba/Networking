@@ -1,0 +1,30 @@
+4.1	A:
+	TP kábel hossz:
+		fehér: 0.6m
+		sárga: 0.7m
+	B:
+	
+	C:
+	koxiális, BNC csatlakózó, tap ellenállás
+	TP
+
+
+4.2	A:
+	x=12: 21.58dB
+	x=14: 22.92dB
+	x=16: 24.08dB
+	
+	B:
+	13 xdb = 4.46
+	-68 xdb = 0.00039
+	-70 xdb = 0.00031
+
+4.3
+	VM:
+	verzió = 7.06
+	lehetséges virtuális géptípusok száma: 7
+	virtuális gép interfészeinek lehetséges száma: 6
+	B:
+	preallokált lemez-nél megadjuk a lemez teljes méretét
+	míg a nem preallokáltnál a lemez méret akkorára nő amekkora szükséges annak a virtuális gépnek
+	

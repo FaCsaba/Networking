@@ -1,0 +1,18 @@
+4.1
+	A: Milyen üzemmódokat kell beállítani az egyes interfészeken?
+		NAT Network üzemmód
+	B:  Milyen paranccsal lehet beállítani az IP címeket?
+		ifconfig <interface name> <ip address>
+4.2
+	A: Mi a jelentése az útvonalválasztási táblának?
+		Felfedezett eszközök ip címét és Mac címét jegyzi fel
+	B: Milyen paranccsal kell beállítani közvetlen hálózat elérését?
+		route -add net <ip addr> dev <interface name>
+	C: Milyen paranccsal kell beállítani távoli hálózat elérését?
+		route -add net 1.1.45.5 gw 1.1.45.4
+4.3
+	A: Hogyan lehet megállapítani két csomópont közötti útválasztók számát? Adja meg a
+parancsot
+		traceroute <ipa>
+	B: Mit igazol az RTT (Round-Trip Time) érték
+		Több hopp hosszabb időt jelent

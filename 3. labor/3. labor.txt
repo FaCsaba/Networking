@@ -1,0 +1,37 @@
+4.1:
+	A:
+	2568828 byte
+	121000 bytes/s
+	181 db
+	1680 bytes
+	B:
+	1x
+	2x, 3x
+
+4.2
+	A:
+	00:EE:AB
+	60-F6-77-39-0B-39
+	B:
+	https://ouilookup.com/
+	Cisco: DC774C
+	Apple: FC66CF
+	Xiaomi: FC1999
+	Huawei: E4D373
+
+4.3
+	A:
+	ip.src == <saját ip address> || ip.dst == <saját ip address>
+	B:
+	broadcast
+4.4
+	A:
+	src host <saját ip address>
+	B:
+	eth.dst == ff:ff:ff:ff:ff:ff
+4.5
+	A:
+	Azt nem lehet megnézni
+	B:
+	Nem lehet megjeleníteni a hexadecimális kódot karakterként
+	

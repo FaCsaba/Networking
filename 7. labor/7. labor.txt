@@ -1,0 +1,34 @@
+4.1
+	A: Milyen üzemmódokat kell beállítani az egyes interfészeken?
+		NAT Network üzemmód
+	B:  Milyen paranccsal lehet beállítani az IP címeket?
+		ifconfig eth0 2001:db8::5/64
+4.2
+	A: Mi a jelentése az útvonalválasztási táblának?
+		Felfedezett eszközök ip címét és Mac címét jegyzi fel
+	B: Milyen paranccsal kell beállítani közvetlen hálózat elérését?
+		route -A inet6 -add net <ip addr> dev <interface name>
+	C: Milyen paranccsal kell beállítani távoli hálózat elérését?
+		route -A inet6 -add net 2001:db8:1000:0:bcd::21 gw 2001:db8:1000:0:bcd::25
+4.3
+	A: Hogyan lehet megállapítani két csomópont közötti útválasztók számát? Adja meg a
+parancsot
+		traceroute6 <ipa>
+	B: Mit igazol az RTT (Round-Trip Time) érték
+		Több hopp hosszabb időt jelent
+4.4
+	A: Hány hextettet tartalmaz egy preferált formátumú IPv6 cím?
+	B:  Mely címtömörítési szabályokat alkalmazta a minél kompaktabb forma elérése
+érdekében?
+	2001:db8:1000:0:bcd::21
+	0-a tömörítés szabálya
+	Kezdő 0-ák tömörítése
+4.5
+	A: Hány darab IPv6 címmel rendelkezik virtuális gépének hálózati kártyája?
+		VM1: 3db
+		VM4: 2db
+		Többi: 1db
+4.6
+	A: Tartalmazhat-e statikus bejegyzéseket egy routing tábla?
+		igen
+	B: 

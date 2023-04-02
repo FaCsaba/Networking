@@ -1,0 +1,41 @@
+4.1 ezen a windows-os rendszeren az alap parancsértelmező bash
+	magok 4
+	RAM: 8GB
+	Órajel frekvencia: 3,30GHz
+	Energia állapota: Nincs akkumulátor
+	Háttértár: 1.db HDD
+	Interfacek száma: 2, Ethernet
+
+   Telefonon:
+	órajel: 2.31GHz
+	magok: 8
+	RAM: 8GB
+	Interface: 2, WIFI, Loopback
+	Battery level: 83%
+
+4.2: 
+	típus: Windows 10 Enterprise
+	verzió: 22H2
+	futó folyamatok száma: 92 windows folyamat + 70 background + 4 alkalmazás
+	CPU terhelés: 2%
+
+    Telefon:
+	típus: Android
+	verzió: 11 RKQ1.200826.002
+	futó processzek száma: 2
+	CPU terhelés: unavailable
+
+4.3:
+	A: MPO, SC (2.5mm), ST (2.5mm), FC (2.5mm), LC (1.25mm)
+	B: channel: 1-et használ
+		ami a 2.4GHz-2.423GHz-ig tart
+
+4.4:
+	A: "disk speed.png"
+	B: Az én gépemen tesztelve független
+
+4.5:
+	A: "teams upload speed.png"
+	B: 
+
+done!
